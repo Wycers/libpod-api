@@ -1,5 +1,7 @@
-import http from "http";
+import { Container } from "./container"
 
-http.post(
+export * from "./container"
 
-console.log("?")
+
+const c = new Container()
+console.log(c.info())
