@@ -1,7 +1,7 @@
-import { Container } from "./container"
+import { Container } from "./container.js"
 
-export * from "./container"
+export * from "./container.js"
 
 
 const c = new Container()
-console.log(c.info())
+console.log(await c.create())
